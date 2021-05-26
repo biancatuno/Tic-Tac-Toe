@@ -10,12 +10,27 @@ using System.Windows.Forms;
 
 namespace Tic_Tac_Toe
 {
-    public partial class Form1 : Form
+    public partial class Body : Form
     {
-        public Form1()
+        bool turn = true;
+        int count_turn = 0; 
+
+        public Body()
         {
             InitializeComponent();
         }
 
+        private void button_click(object sender, EventArgs e)
+        {
+            Button cell = (Button)sender;
+            if (turn)
+                cell.Text = "X";
+            else
+                cell.Text = "O";
+
+            turn = !turn;
+            cell.Enabled = false;
+
+        }
     }
 }

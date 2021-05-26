@@ -1,0 +1,15 @@
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.exe
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.deps.json
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.runtimeconfig.json
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.runtimeconfig.dev.json
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.dll
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.pdb
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.csprojAssemblyReference.cache
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.Body.resources
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.csproj.GenerateResource.cache
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.AssemblyInfoInputs.cache
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.AssemblyInfo.cs
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.csproj.CoreCompileInputs.cache
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.dll
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.pdb
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.genruntimeconfig.cache
