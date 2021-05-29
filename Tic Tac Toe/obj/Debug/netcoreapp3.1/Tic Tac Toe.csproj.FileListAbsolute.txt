@@ -13,3 +13,4 @@ D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac To
 D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.dll
 D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.pdb
 D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.genruntimeconfig.cache
+D:\2 kool 4 iskul\OOP\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic_Tac_Toe.Properties.Resources.resources

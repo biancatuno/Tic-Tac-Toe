@@ -72,11 +72,7 @@ namespace Tic_Tac_Toe
 
                 MessageBox.Show(winner + " " + "Wins!");
 ;            }
-            else
-            {
-                if (count_turn == 9)
-                    MessageBox.Show("It's a DRAW!" + " Nobody won. :(");
-            }
+            else { }
                 
         }//end checkforwinner
 
@@ -111,6 +107,53 @@ namespace Tic_Tac_Toe
             {
                 cell.Text = "";
             }
+        }
+
+        private void newgame_Click(object sender, EventArgs e)
+        {
+            button1.Enabled = true;
+            button2.Enabled = true;
+            button3.Enabled = true;
+            button4.Enabled = true;
+            button5.Enabled = true;
+            button6.Enabled = true;
+            button7.Enabled = true;
+            button8.Enabled = true;
+            button9.Enabled = true;
+
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+            button9.Text = "";
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult iExit;
+                iExit = MessageBox.Show("Tic-Tac-Toe Game", "Do you want to Exit?", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (iExit == DialogResult.Yes)
+                {
+                    System.Windows.Forms.Application.Exit();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Do you want to Exit?", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void about_game_Click(object sender, EventArgs e)
+        {
+            DialogResult about;
+            about = MessageBox.Show("Tic-Tac-Toe Game by Bianca Elaine B. Tuno, BS COE 1-3.\n" +
+                "An activity for Object-Oriented Programming Subject under Engr. Madrigalejos.");
         }
     }
 }
