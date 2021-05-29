@@ -92,5 +92,25 @@ namespace Tic_Tac_Toe
             }
             catch { }
         }
+
+        private void enter(object sender, EventArgs e)
+        {
+            Button cell = (Button)sender;
+            if (cell.Enabled)
+            {
+                if (turn)
+                    cell.Text = "X";
+                else
+                    cell.Text = "O";
+            }
+        }
+        private void leave(object sender, EventArgs e)
+        {
+            Button cell = (Button)sender;
+            if (cell.Enabled)
+            {
+                cell.Text = "";
+            }
+        }
     }
 }

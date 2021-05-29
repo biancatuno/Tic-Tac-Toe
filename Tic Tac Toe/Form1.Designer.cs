@@ -67,99 +67,115 @@ namespace Tic_Tac_Toe
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(42, 92);
+            this.button1.Location = new System.Drawing.Point(32, 59);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 116);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button_click);
+            this.button1.MouseEnter += new System.EventHandler(this.enter);
+            this.button1.MouseLeave += new System.EventHandler(this.leave);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(170, 92);
+            this.button2.Location = new System.Drawing.Point(160, 59);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(122, 116);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button_click);
+            this.button2.MouseEnter += new System.EventHandler(this.enter);
+            this.button2.MouseLeave += new System.EventHandler(this.leave);
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(298, 92);
+            this.button3.Location = new System.Drawing.Point(288, 59);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(122, 116);
             this.button3.TabIndex = 2;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button_click);
+            this.button3.MouseEnter += new System.EventHandler(this.enter);
+            this.button3.MouseLeave += new System.EventHandler(this.leave);
             // 
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(42, 214);
+            this.button4.Location = new System.Drawing.Point(32, 181);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(122, 116);
             this.button4.TabIndex = 3;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button_click);
+            this.button4.MouseEnter += new System.EventHandler(this.enter);
+            this.button4.MouseLeave += new System.EventHandler(this.leave);
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(170, 214);
+            this.button5.Location = new System.Drawing.Point(160, 181);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(122, 116);
             this.button5.TabIndex = 4;
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button_click);
+            this.button5.MouseEnter += new System.EventHandler(this.enter);
+            this.button5.MouseLeave += new System.EventHandler(this.leave);
             // 
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(298, 214);
+            this.button6.Location = new System.Drawing.Point(288, 181);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(122, 116);
             this.button6.TabIndex = 5;
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button_click);
+            this.button6.MouseEnter += new System.EventHandler(this.enter);
+            this.button6.MouseLeave += new System.EventHandler(this.leave);
             // 
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(42, 336);
+            this.button7.Location = new System.Drawing.Point(32, 303);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(122, 116);
             this.button7.TabIndex = 6;
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button_click);
+            this.button7.MouseEnter += new System.EventHandler(this.enter);
+            this.button7.MouseLeave += new System.EventHandler(this.leave);
             // 
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(170, 336);
+            this.button8.Location = new System.Drawing.Point(160, 303);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(122, 116);
             this.button8.TabIndex = 7;
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button_click);
+            this.button8.MouseEnter += new System.EventHandler(this.enter);
+            this.button8.MouseLeave += new System.EventHandler(this.leave);
             // 
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button9.Location = new System.Drawing.Point(298, 336);
+            this.button9.Location = new System.Drawing.Point(288, 303);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(122, 116);
             this.button9.TabIndex = 8;
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button_click);
+            this.button9.MouseEnter += new System.EventHandler(this.enter);
+            this.button9.MouseLeave += new System.EventHandler(this.leave);
             // 
             // fileToolStripMenuItem
             // 
@@ -306,37 +322,11 @@ namespace Tic_Tac_Toe
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(274, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 27);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Player 1 = X";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(274, 49);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 27);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Player 2 = O";
-            // 
             // Body
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(467, 479);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(446, 454);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -353,7 +343,6 @@ namespace Tic_Tac_Toe
             this.Text = "Tic-Tac-Toe Game";
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -398,8 +387,6 @@ namespace Tic_Tac_Toe
         private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
     }
 }
 
