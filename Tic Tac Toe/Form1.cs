@@ -34,6 +34,8 @@ namespace Tic_Tac_Toe
             checkforwinner();
 
         }
+
+        // Checking for Winner 
         private void checkforwinner()
         {
             bool there_is_a_winner = false;
@@ -74,7 +76,7 @@ namespace Tic_Tac_Toe
 ;            }
             else { }
                 
-        }//end checkforwinner
+        }// end checkforwinner
 
         private void disableButtons()
         {

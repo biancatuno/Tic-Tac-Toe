@@ -437,8 +437,8 @@ namespace Tic_Tac_Toe
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(233, 51);
             this.label3.TabIndex = 4;
-            this.label3.Text = "first player to get 3 of her \r\nmarks in a row (up, down, across, \r\nor diagonally)" +
-    " is the winner.";
+            this.label3.Text = "first player to get 3 of their \r\nmarks in a row (up, down, across, \r\nor diagonall" +
+    "y) is the winner.";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
